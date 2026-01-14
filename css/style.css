@@ -5,3 +5,71 @@
   font-weight:400;
   font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* sherad design  */
+.display-flex{
+    display: flex;
+    gap: 20px;
+}
+.text-gray{
+    color: #424242;
+}
+.text-lite-gray{
+    color: #727272;
+}
+.btn{
+    background-color: #FF900E;
+    color: white;
+    padding: 18px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size:1.25rem ;
+    font-weight: 600;
+    margin: 20px;
+}
+/* full header section  */
+
+#head{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navbar design */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+}
+.logo{
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-titel{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:50px ;
+}
+.banner-t{
+    font-weight: 700;
+    font-size:4rem ;
+}
+.banner-img{
+    width: 100%;
+}
+/* responcive media quary */
+@media screen and (max-width:576px) {
+    .navbar, .nav-list{
+        flex-direction: column;
+    }
+}
