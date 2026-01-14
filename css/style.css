@@ -98,6 +98,42 @@ main > section{
     font-size: 2.8rem;
     font-weight: 700;
 }
+/* expariamnce section  */
+.section-tital{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    border-left:5px solid #FF900E;
+    padding-left: 20px;
+}
+.expariance-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+.expariance-card h4{
+    font-weight: 600;
+    font-size:1.25rem ;
+    margin-top: 15px;
+}
+.expariance{
+    display: flex;
+    gap: 140px;
+    align-items: center;
+}
+#expariance-btn{
+    padding: 45px 42px;
+    font-size:1.5rem ;
+    font-weight: 500;
+    margin-left:-100px ;
+    margin-top: -140px;
+}
+#big-f{
+    font-size: 4rem;
+    font-weight: 700;
+}
 /* fact section  */
 .fact-titel{
     max-width: 540px;
@@ -134,7 +170,7 @@ main > section{
 }
 /* responcive media quary */
 @media screen and (max-width:576px) {
-    .navbar, .nav-list, .fetures{
+    .navbar, .nav-list, .fetures, .expariance{
         flex-direction: column;
     }
     .f-discription{
@@ -149,6 +185,13 @@ main > section{
     }
     .fact-titel{
         text-align: center;
+    }
+    #apa{
+        width: 100%;
+    }
+    #expariance-btn{
+        width: 100%;
+        margin:0;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px){
